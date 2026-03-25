@@ -2,16 +2,15 @@
   "name": "huerto-en-casa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-  "dev": "node node_modules/astro/bin/astro.js dev",
-  "build": "node node_modules/astro/bin/astro.js build",
-  "preview": "node node_modules/astro/bin/astro.js preview"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "astro": "^6.0.8"
   }
