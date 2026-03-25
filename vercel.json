@@ -1,4 +1,4 @@
 {
-  "buildCommand": "npm install && astro build",
+  "buildCommand": "npm install && npx --yes astro build",
   "outputDirectory": "dist"
 }
