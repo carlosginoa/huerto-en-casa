@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "astro dev",
-  "build": "node ./node_modules/astro/bin/astro.js build",
-  "preview": "astro preview"
+    "dev": "astro dev",
+    "build": "node ./node_modules/astro/bin/astro.js build",
+    "preview": "astro preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
+  "devDependencies": {
     "astro": "^6.0.8"
   }
 }
