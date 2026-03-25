@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "build": "node ./node_modules/astro/bin/astro.js build",
-    "preview": "astro preview"
+  "dev": "node node_modules/astro/bin/astro.js dev",
+  "build": "node node_modules/astro/bin/astro.js build",
+  "preview": "node node_modules/astro/bin/astro.js preview"
   },
   "keywords": [],
   "author": "",
